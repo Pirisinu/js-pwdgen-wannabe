@@ -1,4 +1,5 @@
 /* TITLE */
+/*  */
 const outputTitle = document.getElementById('heading');
 
 const name = prompt('Inserire il nome');
@@ -10,8 +11,9 @@ const titleMessage =
 Bel colore il ${favouriteColor}!`;
 
 outputTitle.innerHTML = titleMessage;
+
 /* PASSWORD GENERATED */
 const outputPsw = document.getElementById('pswgen');
-const psw= `${name}${lastname}${favouriteColor}23`;
+const psw= `La passworld per te generata è ${name}${lastname}${favouriteColor}23`;
 
 outputPsw.innerHTML = psw;
