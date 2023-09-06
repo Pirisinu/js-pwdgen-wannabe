@@ -7,8 +7,11 @@ const favouriteColor = prompt('Inserire il colore preferito');
 
 const titleMessage =
 `Ciao ${name} ${lastname}. <br/>
-Bel colore il ${favouriteColor}`;
+Bel colore il ${favouriteColor}!`;
 
 outputTitle.innerHTML = titleMessage;
 /* PASSWORD GENERATED */
 const outputPsw = document.getElementById('pswgen');
+const psw= `${name}${lastname}${favouriteColor}23`;
+
+outputPsw.innerHTML = psw;
